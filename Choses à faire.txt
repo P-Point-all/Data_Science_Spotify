@@ -6,15 +6,15 @@ ACP sur les variables quantitatives constitutives de la chanson : on retient d d
 l'ACP pour essayer de retrouver le genre. Combien de dimensions faut-il garder pour avoir de bons résultats par rapport aux genres réels 
 (classification non supervisée)? A quoi correspondent les différentes dimensions?
 
-ADL pour prédire le genre (/ mois, année de sortie ?) d'une playlist / chanson en fonction de ses variables quantitatives (classification supervisée,
-on peut diviser le jeu de données en échantillon d'apprentissage et de test). On peut utiliser ADQ aussi et comparer.
+LDA pour prédire le genre (/ mois, année de sortie ?) d'une playlist / chanson en fonction de ses variables quantitatives (classification supervisée,
+on peut diviser le jeu de données en échantillon d'apprentissage et de test). On peut utiliser QDA aussi et comparer.
 
-AC : créer une variable qualitative à partir de la popularité / de la date de sortie et voir si c'est indépendant du genre avec un test de chi-2.
+CA : créer une variable qualitative à partir de la popularité / de la date de sortie et voir si c'est indépendant du genre avec un test de chi-2.
 On peut essayer de voir quel genre est associé à quelle époque, est le plus populaire.
 
-ACM : pour les relations entre plusieurs variables qualitatives, pas très intéressant vu qu'on n'en a pas beaucoup, on peut en créer éventuellement?
+MCA : pour les relations entre plusieurs variables qualitatives, pas très intéressant vu qu'on n'en a pas beaucoup, on peut en créer éventuellement?
 
-AFM : permet d'utiliser toutes les variables, que l'on regroupe par groupe homogènes (qualitatives / quantitatives), on peut opérer K-means pour
+MFA : permet d'utiliser toutes les variables, que l'on regroupe par groupe homogènes (qualitatives / quantitatives), on peut opérer K-means pour
 prédire la popularité, SVM / logistique pour prédire le genre à partir du reste. On peut aussi regarder si les groupes de variable sont corrélés.
 
 Clustering : K-means, CAH, NNMF, GMM puis visualisation des résultats : correspond au genre? à autre chose? quels points communs, quelles grandes
