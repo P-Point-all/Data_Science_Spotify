@@ -36,3 +36,6 @@ prédire la popularité, SVM / logistique pour prédire le genre à partir du re
 Clustering : K-means, CAH, NNMF, GMM puis visualisation des résultats : correspond au genre? à autre chose? quels points communs, quelles grandes
 catégories? Si ça correspond à quelque chose d'identifié, matrice de confusion et comparaison des résultats. S'intéresser aux désaccords entre les 
 différentes méthodes.
+
+Questions intéressantes :
+Peut-on retrouver la décennie à partir des caractéristiques d'une musique (pb lié à la quantité de musiques des années 2000+, peut-être qu'on peut les enlever pour cette étude?) ?
