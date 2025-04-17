@@ -38,4 +38,5 @@ catégories? Si ça correspond à quelque chose d'identifié, matrice de confusi
 différentes méthodes.
 
 Questions intéressantes :
-Comment se comportent les différentes variables en fonction des années, du style de musique ?
+Peut-on retrouver la décennie à partir des caractéristiques d'une musique (pb lié à la quantité de musiques des années 2000+, peut-être qu'on peut les enlever pour cette étude?) ? => DONE en Python
+Comment faire le hit de l'été - autrement dit quels sont les facteurs qui permettent de maximiser la popularité d'une musique? Tempo? Genre? ... Varie-t-il en fonction des années? => On passe par NMF, dataset = W@H. H indique les patterns latents, on essaie d'interpréter H (?) Corrélations de W avec la popularité? Approche supervisée? (Pour Arman : Voir fin de la requête chatgpt "Remove rows pandas column")
