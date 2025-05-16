@@ -43,3 +43,4 @@ Comment faire le hit de l'été - autrement dit quels sont les facteurs qui perm
 
 Faire une MDS sur les mêmes variables que l'ACP et regarder si le clustering est plus efficace
 Selectionner les musiques d'un seul genre, réaliser une MDS sur ces données puis essayer de prédire les sous genres
+Faire une MCA en ajoutant les résultats d'un des clustering pour voir essayer d'interpreter les clusters
